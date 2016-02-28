@@ -1,0 +1,9 @@
+# Ignore hidden files
+.*
+!.gitignore
+!.dockerignore
+!.gitmodules
+
+# Ignore generated files
+*.pyc
+*~
