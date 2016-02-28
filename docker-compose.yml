@@ -1,0 +1,9 @@
+dev:
+  build: .
+  dockerfile: Dockerfile-dev
+  command: bash
+  env_file: .envrc
+  volumes:
+    - .:/code
+  ports:
+    - "8000:8000"
