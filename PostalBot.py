@@ -25,7 +25,7 @@ class PostalBot(TelegramBot):
     SPAM_TIMEOUT = 10*60
 
     def __init__(self, tg_api_key, tg_lounge_id):
-        super(PostalBot, self).__init__(tg_api_key, tg_lounge_id)ssad
+        super(PostalBot, self).__init__(tg_api_key, tg_lounge_id)
         self.cache = SimpleCache()
 
     def handle_stream_publish(self, data):
